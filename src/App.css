@@ -1,0 +1,31 @@
+
+.section{
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.main-heading{
+  color: rgb(131, 27, 27);
+  font-size: 26px;
+}
+.underline{
+  height: 04px;
+  width: 4rem;
+  background-color: #f76c2f;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.bg-c-light{
+  background-color: #b7cef8;
+
+}
+p{
+font-size: 14px;
+color: #262626;
+}
+.navbar-brand {
+  padding-left: 15px;
+
+}
+.navbar-nav{
+  padding-right: 15px;
+}
