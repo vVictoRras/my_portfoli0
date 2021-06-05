@@ -2,9 +2,11 @@ import React from 'react';
 import './App.css';
 import Home from './components/pages/Home';
 import About from './components/pages/About';
+import Intro from './components/inc/Intro';
 import Contact from './components/pages/Contact';
 import Navbar from './components/inc/Navbar';
 import Footer from './components/inc/Footer';
+import Skills from './components/pages/Skills';
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom'
 
 
@@ -15,7 +17,8 @@ function App() {
         <Navbar />
         <Switch>
         <Route exact path="/">
-          <Home />
+          <Intro />
+          <Home/>
         </Route>
 
         <Route path="/about">
@@ -24,6 +27,10 @@ function App() {
 
         <Route path="/contact">
           <Contact />
+        </Route>
+
+        <Route path="/skills">
+          <Skills />
         </Route>
 
         </Switch>

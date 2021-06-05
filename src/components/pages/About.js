@@ -1,5 +1,5 @@
 import React from 'react';
-import VMC from './inc/Vmc';
+
 
 function About() {
   return (
@@ -7,7 +7,7 @@ function About() {
       <section className="py-4 bg-info">
         <div className="container">
           <div className="row">
-            <div className="col-md-4 my auto">
+            <div className="col-md-4 my-auto">
               <h4>About me</h4>
             </div>
             <div className="col-md-8 my-auto">
@@ -30,8 +30,6 @@ function About() {
           </div>
         </div>
       </section>
-      {/*Vision, mission ,values */}
-      <VMC />
     </div>
   );
 }

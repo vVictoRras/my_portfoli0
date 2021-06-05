@@ -8,31 +8,16 @@ function Footer () {
           <section className="mb-4">
             <a
               className="btn btn-outline-dark btn-floating m-1"
-              href="#!"
+              href="https://www.facebook.com/profile.php?id=100017343541063"
               role="button"
             >
               <i className="fab fa-facebook-f"></i>
             </a>
 
+            
             <a
               className="btn btn-outline-dark btn-floating m-1"
-              href="#!"
-              role="button"
-            >
-              <i className="fab fa-twitter"></i>
-            </a>
-
-            <a
-              className="btn btn-outline-dark btn-floating m-1"
-              href="#!"
-              role="button"
-            >
-              <i className="fab fa-google"></i>
-            </a>
-
-            <a
-              className="btn btn-outline-dark btn-floating m-1"
-              href="#!"
+              href="https://www.instagram.com/sirotilov/"
               role="button"
             >
               <i className="fab fa-instagram"></i>
@@ -40,7 +25,7 @@ function Footer () {
 
             <a
               className="btn btn-outline-dark btn-floating m-1"
-              href="#!"
+              href="https://www.linkedin.com/in/victor-sirotilo-201159124/"
               role="button"
             >
               <i className="fab fa-linkedin-in"></i>
@@ -48,7 +33,7 @@ function Footer () {
 
             <a
               className="btn btn-outline-dark btn-floating m-1"
-              href="#!"
+              href="https://github.com/vVictoRras?tab=repositories"
               role="button"
             >
               <i className="fab fa-github"></i>
@@ -57,7 +42,7 @@ function Footer () {
         </div>
 
         <div
-          class="text-center p-3 bg-light">
+          class="text-center p-1 bg-light">
          
           © 2021 Copyright by Victor Sirotilo
           

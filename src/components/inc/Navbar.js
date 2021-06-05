@@ -5,7 +5,7 @@ function Navbar() {
   return (
 <nav className="navbar navbar-expand-lg navbar-light bg-light shadow">
   
-  <Link to="/" className="navbar-brand ms-auto" >I Love IT)</Link>
+  <Link to="/" className="navbar-brand ms-auto" >My Portfolio</Link>
   <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span className="navbar-toggler-icon"></span>
   </button>
@@ -14,6 +14,9 @@ function Navbar() {
     <ul className="navbar-nav ms-auto">
       <li className="nav-item ">
               <Link to="/" className="nav-link active" >Home</Link>
+      </li>
+      <li className="nav-item ">
+              <Link to="/skills" className="nav-link active" >Skills</Link>
       </li>
       <li className="nav-item ">
               <Link to="/about" className="nav-link active" >About</Link>
