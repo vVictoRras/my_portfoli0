@@ -1,5 +1,6 @@
 import React from 'react';
-
+import foto from "../../images/foto.jpg"
+import "../../App.css"
 
 function About() {
   return (
@@ -20,12 +21,13 @@ function About() {
       <section className="section border-bottom">
         <div className="container">
           <div className="col-md-12 mb-4 text-center">
-            <h5 className="main-heading">My portfolio</h5>
+            <h5 className="main-heading">My foto</h5>
             <div className="underline mx-auto"></div>
           </div>
           <div className="col-md-12 text-center">
-            <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
+            <img  id="foto" src={foto} className="img-thumbnail" alt="my foto"/>
+            <p className="py-4" >
+              My portfolio is my first project...
             </p>
           </div>
         </div>

@@ -1,12 +1,17 @@
-import React from "react"
+import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import { Card, CardColumns } from "react-bootstrap";
-import skill_1 from "../../../src/images/1.jpg"
+import LightboxExample from "./Popup";
+import Card from "react-bootstrap/Card";
+import js from "../../images/js.png";
+import react from "../../images/react.png";
+import html from "../../images/html.png";
+import css from "../../images/css.png";
+import github from "../../images/github.png";
 
 const Skills = () => {
   return (
     <div>
-    <section className="py-4 bg-info">
+      <section className="py-4 bg-info">
         <div className="container">
           <div className="row">
             <div className="col-md-4 my auto">
@@ -18,47 +23,82 @@ const Skills = () => {
           </div>
         </div>
       </section>
-      
 
-    <CardColumns>
-      <Card>
-        <Card.Img variant="top" src={skill_1}/>
-        <Card.Body>
-          <Card.Title>Card title </Card.Title>
-          <Card.Text>
-            Card Text This card has supporting text below as a natural lead-in
-            to additional content.{" "}
-          </Card.Text>
-        </Card.Body>
-       
-      </Card>
+      <section className="section border-bottom">
+        <div className="container">
+          <div className="col-md-12 mb-4 text-center">
+            <h5 className="main-heading">My skills</h5>
+            <div className="underline mx-auto"></div>
+          </div>
+          {/* <div className="col-md-12 text-center"></div> */}
+        </div>
+      </section>
 
-      <Card>
-        <Card.Img variant="top" src="http://askavy.com/demo/img/img-card.jpg" />
-        <Card.Body>
-          <Card.Title>Card title</Card.Title>
-          <Card.Text>
-            Card Text his card has supporting text below as a natural lead-in to
-            additional content.{" "}
-          </Card.Text>
-        </Card.Body>
-       
-      </Card>
+      <section className="section border-bottom">
+        <div className="container">
+          <div className="row">
+              <Card style={{ width: "15rem" }}>
+                <Card.Img variant="top" src={js} />
+                <Card.Body>
+                  <Card.Title>JavaScript</Card.Title>
+                  <Card.Text>
+                    Learn JS near 6 months in Skill UP school in Ukraine
+                  </Card.Text>
+                  {/* <Button variant="primary">Go somewhere</Button> */}
+                </Card.Body>
+              </Card>
 
-      <Card>
-        <Card.Img variant="top" src="http://askavy.com/demo/img/img-card.jpg" />
-        <Card.Body>
-          <Card.Title>Card title</Card.Title>
-          <Card.Text>
-            Card Text his card has supporting text below as a natural lead-in to
-            additional content.{" "}
-          </Card.Text>
-        </Card.Body>
-        </Card>
-    </CardColumns>
+              <Card style={{ width: "15rem" }}>
+                <Card.Img variant="top" src={react} />
+                <Card.Body>
+                  <Card.Title>React Js</Card.Title>
+                  <Card.Text>
+                    Learn React JS near 2 months in Skill UP school in Ukraine
+                  </Card.Text>
+                  {/* <Button variant="primary">Go somewhere</Button> */}
+                </Card.Body>
+              </Card>
+
+              <Card style={{ width: "15rem" }}>
+                <Card.Img variant="top" src={html} />
+                <Card.Body>
+                  <Card.Title>HTML</Card.Title>
+                  <Card.Text>Learn HTML from different courses</Card.Text>
+                  {/* <Button variant="primary">Go somewhere</Button> */}
+                </Card.Body>
+              </Card>
+
+              <Card style={{ width: "15rem" }}>
+                <Card.Img variant="top" src={css} />
+                <Card.Body>
+                  <Card.Title>CSS</Card.Title>
+                  <Card.Text>Learn HTML from different courses</Card.Text>
+                  {/* <Button variant="primary">Go somewhere</Button> */}
+                </Card.Body>
+              </Card>
+
+              <Card style={{ width: "15rem" }}>
+                <Card.Img variant="top" src={github} />
+                <Card.Body>
+                  <Card.Title>Github</Card.Title>
+                  <Card.Text>Basic knowlege from course</Card.Text>
+                  {/* <Button variant="primary">Go somewhere</Button> */}
+                </Card.Body>
+              </Card>
+            </div>
+          </div>
+      </section>
+
+      <section>
+        <div className="container">
+          <div className="col-md-12 mb-4 text-center">
+            <p><h2>IT - is my hobby...</h2></p>
+            <LightboxExample />
+          </div>
+        </div>
+      </section>
     </div>
-  )
+  );
 };
-
 
 export default Skills;
