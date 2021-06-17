@@ -7,6 +7,7 @@ import react from "../../images/react.png";
 import html from "../../images/html.png";
 import css from "../../images/css.png";
 import github from "../../images/github.png";
+import jira from "../../images/jira.png"
 
 const Skills = () => {
   return (
@@ -81,6 +82,15 @@ const Skills = () => {
                 <Card.Img variant="top" src={github} />
                 <Card.Body>
                   <Card.Title>Github</Card.Title>
+                  <Card.Text>Basic knowlege from course</Card.Text>
+                  {/* <Button variant="primary">Go somewhere</Button> */}
+                </Card.Body>
+              </Card>
+
+              <Card style={{ width: "15rem" }}>
+                <Card.Img variant="top" src={jira} />
+                <Card.Body>
+                  <Card.Title>Jira</Card.Title>
                   <Card.Text>Basic knowlege from course</Card.Text>
                   {/* <Button variant="primary">Go somewhere</Button> */}
                 </Card.Body>
