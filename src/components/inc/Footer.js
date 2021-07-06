@@ -42,7 +42,7 @@ function Footer () {
         </div>
 
         <div
-          class="text-center p-1 bg-light">
+          className="text-center p-1 bg-light">
          
           © 2021 Copyright by Victor Sirotilo
           

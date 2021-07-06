@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import '../src/components/inc/stars.scss'
 import Home from './components/pages/Home';
 import About from './components/pages/About';
 import Intro from './components/inc/Intro';
@@ -8,6 +9,7 @@ import Navbar from './components/inc/Navbar';
 import Footer from './components/inc/Footer';
 import Skills from './components/pages/Skills';
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom'
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 function App() {
