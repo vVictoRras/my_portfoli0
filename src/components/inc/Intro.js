@@ -23,13 +23,13 @@ class Intro extends React.Component {
                 <strong className="text-slider text-light">
                   <Typed
                     strings={[
-                      "JavaScript and React Junior",
-                      "QA Junior",
-                      "Software Engineer"
+                      "JavaScript and React Trainee",
+                      "QA Trainee",
+
                     ]}
-                    typeSpeed={90}
-                    backDelay={1100}
-                    backSpeed={30}
+                    typeSpeed={50}
+                    backDelay={800}
+                    backSpeed={10}
                     loop
                   />
                 </strong>
@@ -47,7 +47,7 @@ class Intro extends React.Component {
           </div>
         </div>
        
-              <div className="readMore">
+              <div className="readMore text-center">
               <Link to="/about" className="btn btn-primary btn mt-10 js-scroll px-4">
                 {" "}
                 Read more
