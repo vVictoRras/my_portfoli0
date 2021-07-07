@@ -20,8 +20,11 @@ function App() {
         <Switch>
         <Route exact path="/">
           <Intro />
-          <Home/>
+          {/*<Home/>*/}
         </Route>
+          <Route path="/my_portfoli0">
+            <Intro />
+          </Route>
 
         <Route path="/about">
           <About />
