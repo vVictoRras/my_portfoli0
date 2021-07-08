@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import '../src/components/inc/stars.scss'
-import Home from './components/pages/Home';
+// import Home from './components/pages/Home';
 import About from './components/pages/About';
 import Intro from './components/inc/Intro';
 import Contact from './components/pages/Contact';
@@ -18,13 +18,11 @@ function App() {
       <div>
         <Navbar />
         <Switch>
-        <Route exact path="/">
+        <Route  exact path="/">
           <Intro />
           {/*<Home/>*/}
         </Route>
-          <Route path="/my_portfoli0">
-            <Intro />
-          </Route>
+
 
         <Route path="/about">
           <About />
